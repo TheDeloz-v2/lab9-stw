@@ -4,8 +4,8 @@
   "description": "Laboratorio 9: Calculadora - Sistemas y Tecnologías Web",
   "main": "index.js",
   "scripts": {
-    "start": "webpack --mode development",
-    "build": "webpack build --mode production",
+    "serve": "webpack serve --mode development",
+    "build": "webpack --mode production",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,15 +19,28 @@
     "url": "https://github.com/TheDeloz-v2/lab9-stw/issues"
   },
   "homepage": "https://github.com/TheDeloz-v2/lab9-stw#readme",
+  "dependencies": {
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@mui/material": "^5.12.2",
+    "classnames": "^2.3.2",
+    "file-loader": "^6.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
   "devDependencies": {
-    "clean-webpack-plugin": "^4.0.0",
-    "css-loader": "^6.8.1",
-    "css-minimizer-webpack-plugin": "^5.0.0",
+    "@babel/core": "^7.21.4",
+    "@babel/preset-env": "^7.21.4",
+    "@babel/preset-react": "^7.18.6",
+    "babel-loader": "^9.1.2",
+    "css-loader": "^6.7.3",
     "html-webpack-plugin": "^5.5.1",
-    "mini-css-extract-plugin": "^2.7.6",
-    "sass-loader": "^13.3.1",
-    "style-loader": "^3.3.3",
-    "webpack": "^5.84.1",
-    "webpack-cli": "^5.1.1"
+    "sass": "^1.62.0",
+    "sass-loader": "^13.2.2",
+    "style-loader": "^3.3.2",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.80.0",
+    "webpack-cli": "^5.0.2",
+    "webpack-dev-server": "^4.13.3"
   }
 }
