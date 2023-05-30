@@ -1,0 +1,33 @@
+{
+  "name": "lab9-stw",
+  "version": "1.0.0",
+  "description": "Laboratorio 9: Calculadora - Sistemas y Tecnologías Web",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack --mode development",
+    "build": "webpack build --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheDeloz-v2/lab9-stw.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheDeloz-v2/lab9-stw/issues"
+  },
+  "homepage": "https://github.com/TheDeloz-v2/lab9-stw#readme",
+  "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^6.8.1",
+    "css-minimizer-webpack-plugin": "^5.0.0",
+    "html-webpack-plugin": "^5.5.1",
+    "mini-css-extract-plugin": "^2.7.6",
+    "sass-loader": "^13.3.1",
+    "style-loader": "^3.3.3",
+    "webpack": "^5.84.1",
+    "webpack-cli": "^5.1.1"
+  }
+}
